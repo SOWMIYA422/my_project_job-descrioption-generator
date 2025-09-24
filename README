@@ -1,0 +1,12 @@
+http://127.0.0.1:8000/docs
+
+POST http://127.0.0.1:8000/generate-jd
+
+Content-Type: application/json
+
+{
+  "role": "Software Engineer",
+  "experience": 2
+}
+
+pip install fastapi uvicorn google-generativeai
